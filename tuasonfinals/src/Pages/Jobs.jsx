@@ -48,7 +48,7 @@ function Job(){
                 <div className='input-option'>
                 <h4>Like</h4>
                 </div>
-                <div className='input-option'>
+                <div className='input-option' onClick={event =>  window.location.href='/comment'}>
                 <h4>Comment</h4>
                 </div>
                 <div className='input-option'>
@@ -74,7 +74,7 @@ function Job(){
                 <div className='input-option'>
                 <h4>Like</h4>
                 </div>
-                <div className='input-option'>
+                <div className='input-option' onClick={event =>  window.location.href='/comment'}>
                 <h4>Comment</h4>
                 </div>
                 <div className='input-option'>
@@ -99,7 +99,7 @@ function Job(){
                 <div className='input-option'>
                 <h4>Like</h4>
                 </div>
-                <div className='input-option'>
+                <div className='input-option' onClick={event =>  window.location.href='/comment'}>
                 <h4>Comment</h4>
                 </div>
                 <div className='input-option'>
